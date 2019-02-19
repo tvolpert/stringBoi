@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>
+<head>
+<script src="assets/stringBoi.js"></script>
+<link rel="stylesheet" href="assets/stringBoi.css"></link>
+</head>
+<body>
+<form id="calc">
+    <label for="brand">String Brand: 
+        <select name="brand" id="brand">
+            <option value="" selected>~brand~</option>
+            <option value="Kalium" >Kalium</option>
+            <option value="StringJoy">StringJoy</option>
+        </select>
+    </label>
+      
+    <table id="results">
+    <thead> 
+        <tr class="header row">
+            <th>String #</th>
+            <th>Scale Length (inches)</th>
+            <th>Pitch (Note)</th>
+            <th>Frequency</th> 
+            <th>String Mass</th>
+            <th>Tension (lbs)</th>
+        </tr>     
+    </thead>
+        <tbody>
+        <tr id="string-1" class="string row" data-strNum="1">
+            <td>1</td>
+            <td><input type="number" id="scaleLength"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+        <tr id="string-2" class="string row" data-strNum="2">
+            <td>2</td>
+            <td class="scale-length"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+        <tr id="string-3" class="string row" data-strNum="3">
+            <td>3</td>
+            <td class="scale-length"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+        <tr id="string-4" class="string row" data-strNum="4"><td>4</td>
+            <td class="scale-length"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+        <tr id="string-5" class="string row" data-strNum="5"><td>5</td>
+            <td class="scale-length"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+        <tr id="string-6" class="string row" data-strNum="6"><td>6</td>
+            <td class="scale-length"></td>
+            <td><select class="pitch"></select></td>
+            <td class="freq"></td>
+            <td class="stringMass"></td>
+            <td class="tension"></td>
+        </tr>
+    </tbody>
+    </table>
+</form>
+</body>
+</html>
